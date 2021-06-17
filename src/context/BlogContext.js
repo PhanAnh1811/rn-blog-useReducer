@@ -1,4 +1,4 @@
-import BlogContextReducer from './BlogContextReducer'
+import createDataContext from './createDataContext'
 import JsonServer from '../api/JsonServer'
 
 const blogReducer=(state,action)=>{
@@ -68,3 +68,8 @@ const editBlogPost=(dispatch)=>{
         }
     }
 }
+
+export const {Context,Provider}=createDataContext(
+    blogReducer,
+    {getBlogPosts,addBlogPosts,editBlogPost,deleteBlogPosts},
+)
