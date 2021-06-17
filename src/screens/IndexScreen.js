@@ -4,7 +4,7 @@ import Header from '../components/Header';
 const IndexScreen = ({navigation}) => {
     return (
         <View>
-            <Header iconName='plus' navigation={navigation} screenName='Show' />
+            <Header iconName="plus" navigation={navigation} screenName="Show" />
         </View>
     )
 }

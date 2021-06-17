@@ -7,7 +7,7 @@ const Header = ({iconName,navigation,screenName}) => {
             <View></View>
             <Text style={styles.label}>Blog List</Text>
             <TouchableOpacity onPress={()=>navigation.navigate(screenName)}>
-                <FontAwesome name={iconName} size={50}/>
+                <FontAwesome name={iconName} size={55}/>
             </TouchableOpacity>
         </View>
     )
@@ -17,7 +17,7 @@ export default Header
 
 const styles = StyleSheet.create({
     label:{
-        fontSize:30,
+        fontSize:40,
         fontWeight:'bold',
     },
     

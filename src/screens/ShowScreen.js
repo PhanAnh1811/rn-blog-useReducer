@@ -4,7 +4,7 @@ import Header from '../components/Header'
 const ShowScreen = ({navigation}) => {
     return (
         <View>
-            <Header iconName='pencil' navigation={navigation} screenName='Show'/>
+            <Header iconName="pencil" navigation={navigation} screenName="pEdit"/>
         </View>
     )
 }
